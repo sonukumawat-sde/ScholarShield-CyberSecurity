@@ -127,7 +127,7 @@ Students can submit reports with:
 These reports help update the **threat database**.
 
 ---
-## ⚙️ Technology Stack & Architecture Strategy
+# ⚙️ Technology Stack & Architecture Strategy
 
 ScholarShield is designed using a **dual-phase architecture strategy** that prioritizes what matters most for students: **Speed, Privacy, and Zero-Friction Access**.
 
@@ -205,7 +205,8 @@ This enables ScholarShield to detect **“Zero-Day” phishing websites**, even 
 
 **Impact:**
 To provide omnichannel support, we will deploy a **WhatsApp Cyber Bot** allowing rural students to verify suspicious links via simple chat. Additionally, a lightweight **Browser Extension** will proactively block malicious educational URLs in the background before the page even loads.
-## 📐 Detection Flow
+
+# 📐 Detection Flow
 
 ```
 User Input (URL / QR)
@@ -221,7 +222,7 @@ Visual Feedback (Safe / Warning / Danger)
 Optional Community Report
 ```
 
-## 📁 Project Structure
+# 📁 Project Structure
 
 ```
 ScholarShield-CyberSecurity/
@@ -239,7 +240,7 @@ ScholarShield-CyberSecurity/
 
 ---
 
-## 🛡️ Privacy & Security
+# 🛡️ Privacy & Security
 
 ✅ No backend server  
 ✅ No data collection  
@@ -277,7 +278,8 @@ cd ScholarShield-CyberSecurity
 **Step 3: Run the application**
 
 Simply open the `index.html` file in any web browser (Chrome, Edge, Safari). No local server or dependency installation is required!
-## 🚀 Future Roadmap: Scaling to a National Level
+
+# 🚀 Future Roadmap: Scaling to a National Level
 
 ScholarShield is architected to evolve from a lightweight MVP into a robust **B2G (Business-to-Government)** security grid.
 
@@ -295,7 +297,8 @@ ScholarShield is architected to evolve from a lightweight MVP into a robust **B2
 
 ### 🏛️ 5. Government Sync (B2G)
 * **I4C Threat-Sync API:** Creating a secure data pipeline to funnel verified, crowdsourced scam data directly to the Indian Cyber Crime Coordination Centre (I4C) as a nationwide early-warning system.
-# 👥 The Defense Team (GEC Ajmer)
+* 
+# 👥 The Defense Team (CyberAegis)
 
 
 | Name | Role | Core Responsibility |
