@@ -6,7 +6,7 @@
 
 # 🎯 Project Overview
 
-ScholarShield is an AI-assisted cybersecurity platform designed to protect Indian students from scholarship fraud.
+ScholarShield is an AI-assisted cybersecurity platform designed to protect Indian students and their parents from scholarship fraud.
 
 Every year, millions of students apply for government scholarships online.  
 With the growth of digital services, phishing websites, fake scholarship portals, and QR-based payment scams have increased rapidly.
