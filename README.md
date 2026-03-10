@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Project Overview
+# 🎯 Project Overview
 
 ScholarShield is an AI-assisted cybersecurity platform designed to protect Indian students from scholarship fraud.
 
@@ -21,7 +21,7 @@ Before any financial or personal data loss occurs.
 
 ---
 
-## 🌍 The Real Problem
+# 🌍 The Real Problem
 
 India has 40+ million scholarship applicants every year, making students a major target for cyber fraud.
 
@@ -50,7 +50,7 @@ Students unknowingly submit personal data on malicious websites.
 
 ---
 
-## 💡 Our Solution
+# 💡 Our Solution
 
 ScholarShield introduces a three-layer cybersecurity protection system:
 
@@ -67,33 +67,66 @@ This ensures students verify before they trust.
 
 ---
 
-## ✨ Core Features
+# ✨ Core Features
 
-### 🔎 Heuristic URL Fraud Scanner
-- Domain pattern analysis  
-- SSL validation  
-- Suspicious TLD detection  
-- Phishing keyword detection  
-- Typosquatting detection using string similarity  
+## 🔎 Heuristic URL Fraud Scanner
 
-### 📸 QR Code Integrity Validator
-- Extracts UPI payment payload  
-- Detects private wallet apps  
-- Identifies scam fee patterns (₹99, ₹299, ₹499, etc.)  
-- Flags suspicious transaction notes  
+Analyzes suspicious scholarship links using multiple security checks:
 
-### 📚 Verified Scholarship Directory
-- 24+ Official Central & State Government portals  
-- Category filtering  
-- Direct verified links  
+• Domain pattern analysis  
+• SSL certificate validation  
+• Government domain verification  
+• Phishing keyword detection  
 
-### 🚩 Community Scam Reporting
-- LocalStorage-based reporting  
-- Screenshot support  
-- Voting system for confirmation  
+Unsafe links are immediately flagged.
 
 ---
 
+## 📸 QR Code Integrity Validator
+
+ScholarShield scans uploaded QR images and extracts UPI payment details.
+
+It detects:
+
+• Merchant name  
+• Payment address  
+• Suspicious wallet identifiers  
+
+This prevents students from paying **fake scholarship fees**.
+
+---
+
+## 📚 Verified Scholarship Directory
+
+Provides **direct access to official scholarship portals**.
+
+Students can search by:
+
+• State  
+• Scholarship category  
+• Government scheme  
+
+This eliminates the risk of clicking fake links on search engines.
+
+---
+
+## 🚨 Live Scam Alert System
+
+Displays recently detected scams to help students stay informed about **new fraud trends**.
+
+---
+
+## 🚩 Community Scam Reporting
+
+Students can submit reports with:
+
+• Screenshot evidence  
+• Fraud description  
+• Suspicious link
+
+These reports help update the **threat database**.
+
+---
 ## ⚙️ Technology Stack
 
 ### Phase 1 – High-Fidelity MVP (Current)
