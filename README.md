@@ -187,33 +187,75 @@ ScholarShield-CyberSecurity/
 ✅ Works offline (after initial load)  
 
 ---
+# ⚙️ Installation & Testing
 
-## 👥 Team (GEC Ajmer)
+ScholarShield is built as a **Zero-Latency Client-Side MVP**. There are no heavy backend servers, databases, or environment variables to configure. 
 
-| Name | Role |
-|------|------|
-| Diksha Sharma | Team Leader |
-| Sonu Kumawat | Technical Architect |
-| Shivani Sharma | Security QA |
+You can evaluate the project in two ways:
+
+### 🚀 Option 1: Live Interactive Demo (Recommended)
+Experience the fully functional prototype directly in your browser without downloading any code:
+👉 **[Click Here to Test ScholarShield](https://sonukumawat-sde.github.io/ScholarShield-CyberSecurity/)**
+
+### 💻 Option 2: Run Locally on Your Machine
+
+If you want to review the source code and run it locally, follow these 3 simple steps:
+
+**Step 1: Clone the repository**
+
+```text
+git clone https://github.com/sonukumawat-sde/ScholarShield-CyberSecurity.git
+```
+
+**Step 2: Navigate to the folder**
+
+```text
+cd ScholarShield-CyberSecurity
+```
+
+**Step 3: Run the application**
+
+Simply open the `index.html` file in any web browser (Chrome, Edge, Safari). No local server or dependency installation is required!
+## 🚀 Future Roadmap: Scaling to a National Level
+
+ScholarShield is architected to evolve from a lightweight MVP into a robust **B2G (Business-to-Government)** security grid.
+
+### 🧠 1. AI & Machine Learning Integration
+* **Visual Threat Detection:** Deploying a TensorFlow/Python CNN to analyze the *Visual Similarity Index* of fake domains against official `.gov.in` portals, catching zero-day clones instantly.
+
+### 📱 2. Omnichannel Accessibility
+* **WhatsApp Cyber-Bot:** A 24/7 verified WhatsApp bot allowing rural students to forward suspicious links or QR posters for instant verification without needing a web browser.
+
+### ☁️ 3. Cloud Architecture Scalability
+* **MERN Microservices:** Upgrading to a dynamic Node.js/MongoDB backend to process thousands of concurrent crowdsourced scam reports and push real-time, localized alerts.
+
+### 🛡️ 4. Proactive End-User Protection
+* **Active Browser Extension:** A lightweight background extension for Chrome/Edge that actively blocks malicious educational URLs before the page even fully loads.
+
+### 🏛️ 5. Government Sync (B2G)
+* **I4C Threat-Sync API:** Creating a secure data pipeline to funnel verified, crowdsourced scam data directly to the Indian Cyber Crime Coordination Centre (I4C) as a nationwide early-warning system.
+# 👥 The Defense Team (GEC Ajmer)
+
+
+| Name | Role | Core Responsibility |
+| :--- | :--- | :--- |
+| **Diksha Sharma** | Team Leader | UI/UX Strategy, Product Vision & Threat Research |
+| **Sonu Kumawat** | Technical Architect | Security Logic Engine, Regex Parsing & System Design |
+| **Shivani Sharma** | Security QA | Frontend Engineering & Payload Verification |
 
 ---
 
-## 📜 License
+<p align="center">
+  <i>"Building a zero-trust environment where no student's educational dream is compromised by fraud."</i>
+  <br><br>
+  ⭐ <b>If you believe in securing digital education, consider giving this project a star on GitHub!</b>
+</p>
 
-This project is licensed under the MIT License.
 
----
 
-## 🌟 Support the Project
+# 🤝 Feedback & Contributions
 
-If this project helps protect students:
+As this is an active MVP for **India Innovates 2026**, we highly value feedback from evaluators, mentors, and the developer community. 
+If you discover a bypass in our heuristic engine or have a feature request, please feel free to open an **Issue** or submit a **Pull Request**.
 
-⭐ Star the repository  
-🔄 Share with students  
-🚨 Report scams responsibly  
-
----
-
-**Built with ❤️ by Team GEC Ajmer**  
-India Innovates 2026  
-Version 1.0.0
+# 📄 License & Open Source
