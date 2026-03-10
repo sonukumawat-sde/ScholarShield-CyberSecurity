@@ -127,33 +127,84 @@ Students can submit reports with:
 These reports help update the **threat database**.
 
 ---
-## ⚙️ Technology Stack
+## ⚙️ Technology Stack & Architecture Strategy
 
-### Phase 1 – High-Fidelity MVP (Current)
+ScholarShield is designed using a **dual-phase architecture strategy** that prioritizes what matters most for students: **Speed, Privacy, and Zero-Friction Access**.
 
-- HTML5  
-- CSS3  
-- Vanilla JavaScript (ES6+)  
-- jsQR (Client-side QR decoding)  
-
-✅ Zero backend  
-✅ Zero data storage  
-✅ Runs fully in browser  
-✅ Privacy-first design  
+The current system focuses on providing **instant verification with maximum privacy**, while the future architecture prepares the platform to scale into a **nationwide AI-driven cybersecurity protection system for students.**
 
 ---
 
-### Phase 2 – Future Roadmap
+### 🟢 Phase 1: High-Fidelity MVP (Current Build)
 
-- MERN Stack Backend  
-- AI-powered phishing detection  
-- Computer Vision UI clone detection  
-- WhatsApp Cyber Bot  
-- Browser Extension  
-- Government Threat Sync API  
+The current version of ScholarShield is optimized for **instant access and simplicity**.
+Students can verify suspicious scholarship links or QR codes **directly from their browser**, without downloading applications or creating accounts.
+
+#### 🎨 Frontend Framework
+**Technologies:** `HTML5`, `CSS3`
+
+**Impact:**
+* Provides a **clean, responsive, and mobile-friendly interface**
+* Ensures fast loading even on **low-bandwidth networks**
+* Allows students to verify suspicious links instantly without installing heavy applications
+
+This lightweight web approach makes the platform accessible to **students across both urban and rural regions of India.**
 
 ---
 
+#### 🧠 Core Detection Engine
+**Technologies:** `Vanilla JavaScript (ES6+)`, `jsQR (Client-side QR decoding)`
+
+**Impact:**
+The core fraud detection logic runs entirely **inside the user's browser**, performing:
+* URL heuristic analysis
+* Domain pattern validation
+* Suspicious link detection
+* UPI QR payload extraction
+
+Running these processes on the client side ensures:
+* ✅ **Zero backend & Zero data storage**
+* ✅ **Runs fully in the browser (Zero-latency verification)**
+* ✅ **Privacy-first design (No sensitive student queries stored externally)**
+
+---
+
+### 🚀 Phase 2: Future Roadmap & Production Scale
+
+As ScholarShield evolves, the platform will transition into a **scalable cybersecurity system capable of protecting millions of students across India.**
+
+#### 🌐 Centralized Backend Infrastructure
+**Technology Stack:** `MERN Stack Backend` *(MongoDB, Express.js, React.js, Node.js)*, `Government Threat Sync API`
+
+**Impact:**
+This backend architecture will enable:
+* A **nationwide crowdsourced threat intelligence database**
+* Real-time synchronization of newly reported scams
+* Scalable infrastructure capable of handling **millions of concurrent users**
+* Integration with nodal agencies via Government Threat Sync API
+
+This will transform ScholarShield into a **collaborative cyber defense network built by students, for students.**
+
+---
+
+#### 🤖 AI & Machine Learning Detection
+**Technologies:** `Python (FastAPI)`, `TensorFlow`
+
+**Impact:**
+Future versions of ScholarShield will integrate **AI-powered phishing detection systems** capable of identifying sophisticated scholarship scams. Using **Computer Vision models**, the system will:
+* Detect visually cloned government portals (UI clone detection)
+* Identify fake scholarship websites based on visual similarity
+* Recognize emerging phishing patterns automatically
+
+This enables ScholarShield to detect **“Zero-Day” phishing websites**, even before they are widely reported.
+
+---
+
+#### 🛡️ Active Defense & Accessibility
+**Technologies:** `WhatsApp Cyber Bot`, `Browser Extension`
+
+**Impact:**
+To provide omnichannel support, we will deploy a **WhatsApp Cyber Bot** allowing rural students to verify suspicious links via simple chat. Additionally, a lightweight **Browser Extension** will proactively block malicious educational URLs in the background before the page even loads.
 ## 📐 Detection Flow
 
 ```
