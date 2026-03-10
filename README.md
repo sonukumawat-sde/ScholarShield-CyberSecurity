@@ -221,20 +221,6 @@ Visual Feedback (Safe / Warning / Danger)
 Optional Community Report
 ```
 
-
-## ⚙️ Local Setup
-
-```bash
-git clone https://github.com/sonukumawat-sde/ScholarShield-CyberSecurity.git
-cd ScholarShield-CyberSecurity
-```
-
-Open `index.html` in your browser.
-
-No npm install required.
-
----
-
 ## 📁 Project Structure
 
 ```
